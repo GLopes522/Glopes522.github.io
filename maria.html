@@ -1,134 +1,83 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
+<html>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil de Rede Social</title>
-    <style>
-        /* Corpo da página */
-        body {
-            font-family: Arial, sans-serif;
-            background-color:#cf8d84;
-            background-size: cover;
-            background-position: center;
-            margin: 0;
-            padding: 0;
-        }
-
-        /* Container do perfil */
-        .profile-container {
-            display: flex;
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Love Mail</title>
+        <style>
+            .container {
             flex-direction: column;
+            display: flex;
+            margin: 20px 300px 20px 400px;  
+            font-family: helvetica;
+            font-size: 18px;
+            border: 3px solid;
+            border-radius: 20px;
+            padding: 0 15px 0 15px;
+            width: 450px;
+            height: 600px;
+            background-color: #d363ff; 
             align-items: center;
-            padding: 20px;
-            background-color: #6f3730d2; /* Para dar destaque ao conteúdo */
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-            width: 100%;
-            max-width: 800px;
-            margin: 50px auto; /* Adicionado para centralizar */
-        }
+            opacity: 0.9;
+            }
+            .fundo {
+                background-color: blueviolet;
+                padding: 10px 10px 10px 10px;
+                margin: flex;
+            }
+            h3 {
+                background-color: rgb(201, 201, 201);
+                border:2px solid;
+                border-radius: 10px;
+                width:190px;
+                padding: 0 0 0 20px;
+            }
+            .fotomusica {
+                width: 150px;
+                height: 150px;
+                border-radius: 10px;   
+                border: 5px solid rgb(0, 0, 0); 
+                box-shadow: 0 5px 5px 5px #3a3a3a ;
+            }
+            .fotogeta {
+                width: 80px;
+                height: 60px;
+                border-radius: 45px;   
+                border: 4px solid rgb(0, 0, 0); 
+                margin-left: 10px;
+                align-items: center;
+            }
+            a {
+                background-color: #b6b6b6;
+                color: rgb(0, 0, 0);
+                width: 100px;
+                height: 30px;
+                padding: 5px 0 0 8px;
+                border-radius: 10px;
+                border: 2px solid;
+                margin:15px;
+                font-family: Arial;
 
-        /* Foto de perfil */
-        .profile-img {
-            width: 140px;
-            height: 160px;
-            border-radius: 25PX;
-            border: 2px solid rgb(144, 144, 144);
-            margin-top: -60px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-        }
-
-        /* Nome e título */
-        .profile-info {
-            text-align: center;
-            color: rgb(0, 0, 0);
-        }
-
-        .profile-info h1 {
-            margin: 10px 0;
-            font-size: 30px;
-            font-weight: bold;
-        }
-
-        .profile-info p {
-            font-size: 18px;
-            color: #000000;
-            margin: 5px 0;
-        }
-
-        /* Descrição e dados adicionais */
-        .profile-details {
-            background-color:#ffbeb498;
-            width: 100%;
-            max-width: 700px;
-            margin-top: 20px;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .profile-details h2 {
-            font-size: 24px;
-            color: #333;
-            margin-bottom: 10px;
-        }
-
-        .profile-details p {
-            font-size: 50px;
-            color: #000000;
-            text-align: center;
-        }
-
-        .quote {
-            margin-top: 20px;
-            font-size: 18px;
-            color: #000000;
-            font-style: italic;
-            text-align: center;
-        }
-
-        /* Botão de seguir */
-        .follow-button {
-            background-color: #717171;
-            color: rgb(0, 0, 0);
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-            margin-top: 20px;
-        }
-
-        .follow-button:hover {
-            background-color: #000304;
-        }
-    </style>
-</head>
-<body>
-
-    <!-- Container do perfil -->
-    <div class="profile-container">
-        <!-- foto de perfil (1).jpg -->
-        <img class="profile-img" src="WhatsApp Image 2025-06-02 at 18.25.29.jpeg" alt="foto de perfil">
-
-        <!-- Informações do perfil -->
-       
-
-        <!-- Detalhes adicionais -->
-        <div class="profile-details">
-           <p>Meu amor esse presente é para demonstrar um pouco do amor que tenho por você.quero te dizer que os seus olhos me encantam o seu cabelo me alucina me perdi no seu sorriso e nem preciso me encontrar Minha musa, minha vida
-Minha Monalisa.Você é muito especial para mim e eu quero vc para o resto da minha vida <b> EU TE AMO ! </b> </p>
-            
+            }
+            p {
+                background-color: rgb(187, 187, 187);
+                border-radius: 10px;
+                border: 2px solid;
+                padding:0 2px 0 15px;
+                font-size: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="fundo">
+        <div class="container">
+        <h3>Correio Do Amor</h3>
+        <img class="fotomusica"  src="link da foto da musica" alt="Foto de capa da musica">
+        <a href="link da musica"><b>Click Aqui !</a>
+        <p>------------------------------------------</p>
+        </b>
+        <img class="fotogeta" src="link da foto"  alt="foto">
         </div>
-
-          
-
-        <!-- Frase de destaque -->
-        <div class="quote">
-            <p>Com amor e carinho!</p>
-        </div>
-
-       
-    
-    
+    </body>
+</html>
